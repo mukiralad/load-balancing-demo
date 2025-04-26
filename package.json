@@ -1,0 +1,35 @@
+{
+  "name": "cloud-load-balancer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next dev",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "date-fns": "2.30.0",
+    "react-day-picker": "^8.10.0",
+    "@heroicons/react": "^2.1.1",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  },
+  "description": "This project demonstrates cloud load balancing concepts using a Next.js application. It simulates a load balancer distributing traffic across multiple backend servers while providing real-time monitoring and visualization.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
